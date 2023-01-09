@@ -46,7 +46,7 @@ to procces it and store in database. Send back data to users, when they request 
 
 2️⃣  Clone this project from GitHub
 ```bash
-git clone https://github.com/PavloPolovyi/taxi-service
+https://github.com/PavloPolovyi/rick-and-morty
 ```
 3️⃣ Navigate to project folder in terminal and run following command:
 ```bash
