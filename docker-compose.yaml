@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: db
+    restart: unless-stopped
+    env_file:
+      - ./.env
+    environment:
+      - POSTGRES_USER=$POSTGRES_USER
+      - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
+      - POSTGRES_DB=$POSTGRES_DB
+    ports:
+      - ${POSTGRES_LOCAL_PORT}:${POSTGRES_CONTAINER_PORT}
+  app:
+    build: .
+    container_name: app
+    env_file:
+      - ./.env
+    depends_on:
+      - db
+    ports:
+      - ${SPRING_LOCAL_PORT}:${SPRING_CONTAINER_PORT}
