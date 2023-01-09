@@ -32,6 +32,7 @@ to procces it and store in database. Send back data to users, when they request 
 * Spring Data JPA
 * Spring MVC
 * PostgreSQL
+* Hibernate
 * Docker
 * Liquibase
 * OpenAPI 3.0
