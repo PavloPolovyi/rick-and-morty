@@ -56,7 +56,7 @@ https://github.com/PavloPolovyi/rick-and-morty
 ```bash
 docker compose build
 ```
-5️⃣ And finaly run application. Start takes a while, because of initial data synchronization:
+5️⃣ And finally run application. Start takes a while, because of initial data synchronization:
 ```bash
 docker compose up
 ```
