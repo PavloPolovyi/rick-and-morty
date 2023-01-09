@@ -1,7 +1,7 @@
 # Rick&Morty characters Wiki
 
 <h2>📣 Project description 📣</h2>
-This is a simple REST API that exposes two enpoints: <b>/random</b> - to get info about random Rick&Morty characters and <b>/by-name?nameLike={query}</b> - to find info about characters who's name is like query pattern. The data is dynamically synchronized using external API (https://rickandmortyapi.com/). This application follows SOLID principles and is built up using N-tier architecture.
+This is a simple REST API that exposes two enpoints: <b>/random</b> - to get info about random Rick&Morty characters and <b>/by-name?nameLike={query}</b> - to find info about characters who's name is like query pattern. The data is dynamically synchronized using an external API (https://rickandmortyapi.com/). This application follows SOLID principles and is built up using N-tier architecture.
 
 <h2>Features</h2>
 
