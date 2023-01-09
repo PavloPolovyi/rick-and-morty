@@ -53,6 +53,10 @@ https://github.com/PavloPolovyi/rick-and-morty
 ```bash
 ./mvnw clean package -DskipTests
 ```
+if it has failed, install Maven and run following command:
+```bash
+mvn package -DskipTests
+```
 4️⃣ Then run and wait while images are building:
 ```bash
 docker compose build
