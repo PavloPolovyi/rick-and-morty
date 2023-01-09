@@ -64,5 +64,5 @@ docker compose up
 ```bash
 http://localhost:8081/swagger-ui.html
 ```
-:seven: If port 8081 is busy on your machine, just change POSTGRES_LOCAL_PORT value in .env file.
+:seven: If port 8081 is busy on your machine, just change SPRING_LOCAL_PORT value in .env file.
 
