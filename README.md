@@ -42,7 +42,7 @@ to procces it and store in database. Send back data to users, when they request 
 ## <h2>:bomb:Instructions for launching the project:bomb:</h2>
 <h4>To run this project locally, follow these steps:</h4>
 
-1️⃣ You should install for easy launching <a href="https://docs.docker.com/get-docker/">Docker</a>
+1️⃣ You should install <a href="https://docs.docker.com/get-docker/">Docker</a> for easy launching
 
 2️⃣  Clone this project from GitHub
 ```bash
