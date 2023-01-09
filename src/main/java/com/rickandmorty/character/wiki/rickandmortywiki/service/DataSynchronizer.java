@@ -32,7 +32,7 @@ public class DataSynchronizer {
         synchronizeData();
     }
 
-    public void synchronizeData() {
+    private void synchronizeData() {
         List<ApiCharacter> characters = fetchData();
         saveAll(filterAndMap(characters));
     }
